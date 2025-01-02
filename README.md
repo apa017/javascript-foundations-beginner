@@ -6,5 +6,8 @@ This is the second segment of the project. Code is updated from branch [project_
 
 In this branch the following actions were taken:
 
-- abc
-- def
+- create input data prompting
+- send prompted inputs to browser console
+- conversion of string to integer
+- sum two integer variables
+- create comments for the different sections of `main.js`
