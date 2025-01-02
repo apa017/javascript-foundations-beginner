@@ -1,29 +1,46 @@
-// Create Array
-let friends = ['Beni', 'Scotty', 'Rocky', 'Lucky']
+// Keep prompting until a valid integer between 0 and 100 is entered
+let grade;
 
-
-// test 1: Output in console
-console.log(friends)
-
-// test 2: Output in console: specific value by index
-console.log(friends[0])
-
-// test 3: Output in console: use loop to print every value in array (index + value)
-for (let item in friends) {console.log(item + ' : ' + friends[item])}
+do {
+    let input = prompt('Enter your grade - value between 0 and 100:');
+    grade = parseInt(input); // Convert input to integer
+} while (isNaN(grade) || grade < 0 || grade > 100); // Repeat if invalid
 
 
 
-// Modify array: add a new element
-friends[4] = 'Billo'
+// Explore conditions
+if (grade >=90) {
+    message = 'Your grade is A.'
+    console.log(message)                // print to console
+    alert(message)                      // return message on webpage as popup window
+}
 
+else if (grade >=80) {
+    message = 'Your grade is B.'
+    console.log(message)
+    alert(message)
+}
 
-// test 4: Output in console: print modified array
-console.log(friends)
+else if (grade >=70) {
+    message = 'Your grade is C.'
+    console.log(message)
+    alert(message)
+}
 
+else if (grade >=60) {
+    message = 'Your grade is D.'
+    console.log(message)
+    alert(message)
+}
 
+else if (grade >=50) {
+    message = 'Your grade is E.'
+    console.log(message)
+    alert(message)
+}
 
-// Modify array: change value by its index
-friends[0] = 'Bee'
-
-// test 5: Output in console: print modified array
-console.log(friends)
+else {
+    message = 'Your grade is F.'
+    console.log(message)
+    alert(message)
+}
