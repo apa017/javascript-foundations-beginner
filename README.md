@@ -1,7 +1,7 @@
 # javascript-foundations-beginner
 JavaScript Foundations Skills - Beginner
 
-### Project 
+### Project 7
 This is the seventh and last segment of the project. Code is updated from branch [project_6](https://github.com/apa017/javascript-foundations-beginner/tree/project_6). 
 
 This project goes back to the concept of loop, explored in previous assets:
