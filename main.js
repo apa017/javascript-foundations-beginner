@@ -1,10 +1,15 @@
+let firstName = prompt('Enter your first name')
+let lastName = prompt('Enter your last name')
+let age = prompt('Enter your age')
 
+// convert age (string) to number
+age = parseInt(age)
 
-let firstName = 'Tobias'
-let yearsOld = 15
+// create variable from input
+newAge = age + 2
 
-
-console.log('Hello World')
-console.log("I'm a simple log message for the browser console.")
-console.log("My name is", firstName)
-console.log("I am " + yearsOld + " years old")
+// output to console
+console.log(firstName)
+console.log(lastName)
+console.log("Your age is " + age)
+console.log("2 years from now your age will be: " + newAge)
