@@ -1,0 +1,13 @@
+h1 {
+    font-size: 40px;
+    color: navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 2px 1px gainsboro;
+}
+
+
+body {
+    background-color: #ffdd03;
+}
