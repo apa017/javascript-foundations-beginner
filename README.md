@@ -1,10 +1,13 @@
 # javascript-foundations-beginner
 JavaScript Foundations Skills - Beginner
 
-### Project 3
-This is the third segment of the project. Code is updated from branch [project_2](https://github.com/apa017/javascript-foundations-beginner/tree/project_2). 
+### Project 4
+This is the fourth segment of the project. Code is updated from branch [project_3](https://github.com/apa017/javascript-foundations-beginner/tree/project_4). 
 
 In this branch the following actions were taken:
 
-- link `styles.css` to head of `index.html`
-- edit of `styles.css` to edit appearance of h1, body `index.html`
+- Store an input in `main.js`
+- Edit `index.html` using tags with id to pinpoint variables from js file
+- Get element from `main.js` to `index.html` rather than console (i.e. print output visible to user)
+- Concatenate the inputs
+- Edit `styles.css` to improve visibility of new tag
