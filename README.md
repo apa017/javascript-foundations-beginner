@@ -2,7 +2,7 @@
 JavaScript Foundations Skills - Beginner
 
 ### Project 4
-This is the fourth segment of the project. Code is updated from branch [project_3](https://github.com/apa017/javascript-foundations-beginner/tree/project_4). 
+This is the fourth segment of the project. Code is updated from branch [project_3](https://github.com/apa017/javascript-foundations-beginner/tree/project_3). 
 
 In this branch the following actions were taken:
 
