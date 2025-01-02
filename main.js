@@ -1,46 +1,34 @@
-// Keep prompting until a valid integer between 0 and 100 is entered
-let grade;
 
-do {
-    let input = prompt('Enter your grade - value between 0 and 100:');
-    grade = parseInt(input); // Convert input to integer
-} while (isNaN(grade) || grade < 0 || grade > 100); // Repeat if invalid
-
-
-
-// Explore conditions
-if (grade >=90) {
-    message = 'Your grade is A.'
-    console.log(message)                // print to console
-    alert(message)                      // return message on webpage as popup window
+// create a for loop with its 3 statements: initialization; statements; execution
+for(                            // initialization (while / for)
+                                // statements
+    let i = 1;                       // provide min range (1)
+     i <= 5;                         // provide end of loop (max range = 5)
+     i++                             // provide increment (++) or decrement (--)
+    ) {                         // execution
+    console.log('Hi ' + i)                              
 }
 
-else if (grade >=80) {
-    message = 'Your grade is B.'
-    console.log(message)
-    alert(message)
+
+// ----------- Practical Application
+
+
+// Create an empty array
+let colorList = []
+
+// For Loop initialization
+for (let i = 0; i <= 2; i++) {
+    // input value
+    let color = prompt('Enter a color ')
+    // append value to list
+    colorList.push(color)
 }
 
-else if (grade >=70) {
-    message = 'Your grade is C.'
-    console.log(message)
-    alert(message)
-}
+// Create output
+let outputMessage = 'Your list of colors is: ' + colorList
 
-else if (grade >=60) {
-    message = 'Your grade is D.'
-    console.log(message)
-    alert(message)
-}
+// Example output 1: provide pop-up alert
+alert(outputMessage)
 
-else if (grade >=50) {
-    message = 'Your grade is E.'
-    console.log(message)
-    alert(message)
-}
-
-else {
-    message = 'Your grade is F.'
-    console.log(message)
-    alert(message)
-}
+// Example output 2: generate output in `index.html`
+document.getElementById('colorlist').innerHTML = outputMessage
