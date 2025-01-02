@@ -1,13 +1,14 @@
 # javascript-foundations-beginner
 JavaScript Foundations Skills - Beginner
 
-### Project 6
-This is the sixth segment of the project. Code is updated from branch [project_5](https://github.com/apa017/javascript-foundations-beginner/tree/project_5). 
+### Project 
+This is the seventh and last segment of the project. Code is updated from branch [project_6](https://github.com/apa017/javascript-foundations-beginner/tree/project_6). 
+
+This project goes back to the concept of loop, explored in previous assets:
+- [project_5/main.js](https://github.com/apa017/javascript-foundations-beginner/blob/project_5/main.js) - where for loop was used to iterate an array
+- [project_6/main.js](https://github.com/apa017/javascript-foundations-beginner/blob/project_6/main.js) - where while loop was used to iterate code until a condition is met
 
 In this branch the following actions were taken:
+- abc
+- def
 
-- Ensure the user inputs a value between 1 and 100. This is achieved by parsing value to integer and providing a while loop condition
-- Return a message on the console based on user output
-- On `index.html` return the output message on a pop up window
-
-All changes were done solely on `main.js`
